@@ -1,0 +1,24 @@
+# This is a comment.
+# Each line is a file pattern followed by one or more owners.
+
+# These owners will be the default owners for everything in
+# the repo. Unless a later match takes precedence,
+# @akshaym25,  @rachana05 and  @Jahanwadia will be requested for
+# review when someone opens a pull request.
+*       @akshaym25 @rachana05 @Jahanwadia
+
+# The `docs/*` pattern will match files like
+# `docs/getting-started.md` but not further nested files like
+docs/*  @akshaym25 
+
+# In this example, @Jahanwadia owns any file in an apps directory
+# anywhere in your repository.
+GCP/ @akshaym25
+
+# In this example, @Jahanwadia owns any file in an apps directory
+# anywhere in your repository.
+AWS/ @JahanWadia
+
+# In this example, @Jahanwadia owns any file in an apps directory
+# anywhere in your repository.
+Azure/ @rachana05
